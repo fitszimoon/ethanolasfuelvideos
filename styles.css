@@ -158,7 +158,7 @@ body {
     width: 100%;
     max-width: 400px;
     margin: auto;
-    margin-left: 270px; /* Default margin when sidebar is hidden */
+    margin-left: 365px; /* Default margin when sidebar is hidden */
     margin-top: 70px;
     transition: margin-left 0.3s ease-in-out; /* Smooth transition */
 }
