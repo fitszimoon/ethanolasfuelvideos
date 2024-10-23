@@ -3,62 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Website</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+    <title>Video Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        video {
+            width: 300px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #000;
+        }
+    </style>
 </head>
 <body>
-    <!-- Username Input Page -->
-    <div class="username-container" id="username-page">
-        <div id="username-title">Welcome! Please Enter Your Name</div>
-        <input type="text" id="username-input" placeholder="Enter your name">
-        <button id="start-quiz-btn" onclick="startQuiz()">Start Quiz</button>
-    </div>
 
-    <!-- Quiz Container -->
-    <div class="quiz-container" id="quiz" style="display:none;">  <!-- Hidden initially -->
-        <div id="quiz-title">Quiz: Ethanol as Fuel</div>
+<h1>My Video Page</h1>
 
-        <button class="toggle-btn" onclick="toggleSidebar()">☰ Menu</button>
-
-        <div class="sidebar" id="sidebar">
-            <a href="/">Home</a>
-            <a href="#">About</a>
-            <a href="#">Gallery</a>
-            <a href="#">Contact</a>
-        </div>
-
-        <!-- Progress Bar -->
-        <div class="progress-bar-container">
-            <div id="progress-bar"></div>
-        </div>
-
-        <div id="question">Question text here</div>
-
-        <!-- Options Buttons -->
-        <div class="options">
-            <button class="option" onclick="checkAnswer(0)">Option 1</button>
-            <button class="option" onclick="checkAnswer(1)">Option 2</button>
-            <button class="option" onclick="checkAnswer(2)">Option 3</button>
-            <button class="option" onclick="checkAnswer(3)">Option 4</button>
-        </div>
-
-        <!-- Button container for Back and Next buttons -->
-        <div class="button-container">
-            <button id="back" onclick="goBack()" class="nav-button" style="display: none;">Back</button>
-            <button id="submit" onclick="nextQuestion()" class="nav-button">Next</button>
-        </div>
-
-        <div id="score-container">
-            Your score: <span id="score">0</span>
-        </div>
-    </div>
+<div class="video-container">
+    <video controls>
+        <source src="https://www.youtube.com/embed/JALTcEIZoZw?rel=0&showinfo=0&color=white&iv_load_policy=3&enablejsapi=1&playsinline=1&autoplay=1" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
     
-    <!-- Score History Section -->
-    <div class="score-history-container" id="score-history" style="display: none;">
-        <h2>Score History</h2>
-        <ul id="score-list"></ul>
-    </div>
+    <video controls>
+        <source src="https://www.youtube.com/embed/5tN6eynMMNw?rel=0&showinfo=0&color=white&iv_load_policy=3&enablejsapi=1&playsinline=1&autoplay=1" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <video controls>
+        <source src="https://www.youtube.com/embed/6_DQPLihXfo?rel=0&showinfo=0&color=white&iv_load_policy=3&enablejsapi=1&playsinline=1&autoplay=1" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <!-- Add more videos as needed -->
+</div>
 
-    <script src="script.js"></script>
 </body>
 </html>
