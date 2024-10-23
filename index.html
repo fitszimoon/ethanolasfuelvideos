@@ -20,12 +20,12 @@
             justify-content: center;
             gap: 20px;
         }
-        video {
-            width: 300px;
-            height: auto;
-            border: 2px solid #ccc;
-            border-radius: 10px;
-            background-color: #000;
+        iframe {
+            width: 300px;  /* Width of the video */
+            height: 169px; /* Height of the video based on 16:9 aspect ratio */
+            border: none;  /* Remove border */
+            border-radius: 10px; /* Round corners */
+            background-color: #000; /* Background color */
         }
     </style>
 </head>
@@ -34,21 +34,12 @@
 <h1>My Video Page</h1>
 
 <div class="video-container">
-    <video controls>
-        <source src="https://www.youtube.com/embed/6_DQPLihXfo?rel=0&showinfo=0&color=white&iv_load_policy=3&enablejsapi=1&playsinline=1&autoplay=1.mp4
-            " type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <iframe src="https://www.youtube.com/embed/6_DQPLihXfo?rel=0&showinfo=0&color=white&iv_load_policy=3&enablejsapi=1&playsinline=1&autoplay=1" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+    </iframe>
     
-    <video controls>
-        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    
-    <video controls>
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <!-- You can add more videos by copying this iframe structure -->
 </div>
 
 </body>
