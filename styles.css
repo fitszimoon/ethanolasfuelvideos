@@ -1,0 +1,43 @@
+  * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        /* Container for the videos */
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        /* Styles for the iframe */
+        iframe {
+            width: 300px;  /* Width of the video */
+            height: 169px; /* Height of the video based on 16:9 aspect ratio */
+            border: none;   /* Remove border */
+            border-radius: 10px; /* Round corners */
+            background-color: #000; /* Background color */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+            transition: transform 0.3s; /* Smooth scaling effect */
+        }
+        /* Scale up video on hover */
+        iframe:hover {
+            transform: scale(1.05); /* Scale effect on hover */
+        }
+        /* Responsive styles */
+        @media (max-width: 600px) {
+            iframe {
+                width: 100%; /* Full width on small screens */
+                height: auto; /* Automatic height */
+            }
+        }
