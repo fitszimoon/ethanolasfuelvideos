@@ -132,6 +132,7 @@
         
         iframe.sidebar-open {
             border: 5px solid red;
+            outline: white solid 5px;
         }
         
    .sidebar {
