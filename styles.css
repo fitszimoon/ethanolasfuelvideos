@@ -51,14 +51,14 @@
            font-weight: bold;
            
         }
-        p2 {
+        .p2 {
            font-size: 28px;
            margin-top: 70px;
            font-weight: bold;
            
            }
            
-           p3 {
+        .p3 {
            font-size: 28px;
            margin-top: 70px;
            font-weight: bold;
@@ -80,6 +80,14 @@
     }
     
     .video-container.shifted .p1 {
+      animation: flicker 1.5s infinite;
+    }
+
+    .video-container.shifted .p2 {
+      animation: flicker 1.5s infinite;
+    }
+
+    .video-container.shifted .p3 {
       animation: flicker 1.5s infinite;
     }
          
