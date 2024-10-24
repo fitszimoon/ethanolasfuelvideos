@@ -94,6 +94,7 @@
     }
     
     .video-container.shifted .p1 {
+      font-family: 'P5R Menu Font', sans-serif;
       font-size: 60px;
       margin-bottom: -44px;
       color: red;
