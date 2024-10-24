@@ -6,21 +6,28 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
-            padding: 15px;
-            
-            
+            padding: 15px; 
         }
-        h1 {
+        
+        .h1 {
             background-color: red;
-            font-size: 60px;
-            font-style: italic;
+            font-size: 36px;
             text-align: center;
             margin-bottom: 50px;
-            margin-right: -240px;
-            margin-left: -240px;
-            padding: 40px;
+            margin-right: -100px;
+            margin-left: -100px;
+            padding: 0px;
             color: #fff;
+            transition: 0.3s ease-in-out;
            }
+         
+         .h1.shifted {
+           background-color: black;
+           font-style: italic;
+           color: red;
+           margin-left: 200px;
+         }
+           
         
         .h2 { 
             font-size: 28px;
@@ -36,7 +43,7 @@
             font-style: italic;
             text-transform: uppercase;
             color: #fff;
-            margin-right: 130px;
+            margin-right: 300px;
             }
               
         p1 {
@@ -75,7 +82,7 @@
         /* Styles for the iframe */
         iframe {
             width: 1080px;  /* Width of the video */
-            height: 250px; /* Height of the video based on 16:9 aspect ratio */
+            height: 720px; 
             border: none;   /* Remove border */
             border-radius: 10px; /* Round corners */
             background-color: #000; /* Background color */
