@@ -40,6 +40,7 @@
            
         
         .h2 { 
+            font-family: 'Markin LT', sans-serif;
             font-size: 28px;
             font-weight: bold;
             text-align: center;
@@ -206,3 +207,12 @@
             }
       }
       
+@font-face {
+    font-family: 'Markin LT';
+    src: url('fonts/MarkinLTUltraBold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/MarkinLTUltraBold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/MarkinLTUltraBold.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: bold;
+    font-style: normal;
+}
+
