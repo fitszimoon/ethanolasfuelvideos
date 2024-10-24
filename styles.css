@@ -94,6 +94,7 @@
     }
     
     .video-container.shifted .p1 {
+      font-family: 'P5R Menu Font', sans-serif;
       color: red;
       font-style: italic;
       text-transform: uppercase;
@@ -216,3 +217,9 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'P5R Menu Font';
+    src: url('fonts/Persona5MenuFontPrototype-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
