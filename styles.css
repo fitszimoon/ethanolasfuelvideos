@@ -105,17 +105,25 @@
     }
 
     .video-container.shifted .p2 {
-      color: red;
-      font-style: italic;
+      font-family: 'P5R Menu Font', sans-serif;
+      font-size: 60px;
+      margin-bottom: -70px;
+      color: white;
       text-transform: uppercase;
       animation: flicker 2.5s infinite;
+      position: relative;
+      z-index: 10;
     }
 
     .video-container.shifted .p3 {
-      color: red;
-      font-style: italic;
+      font-family: 'P5R Menu Font', sans-serif;
+      font-size: 60px;
+      margin-bottom: -70px;
+      color: white;
       text-transform: uppercase;
       animation: flicker 2.5s infinite;
+      position: relative;
+      z-index: 10;
     }
          
         /* Styles for the iframe */
@@ -228,3 +236,11 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'p5hatty ';
+    src: url('fonts/p5hatty-1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
