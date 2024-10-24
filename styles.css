@@ -14,8 +14,8 @@
             font-size: 36px;
             text-align: center;
             margin-bottom: 50px;
-            margin-right: -100px;
-            margin-left: -100px;
+            margin-right: -50px;
+            margin-left: -60px;
             padding: 0px;
             color: #fff;
             transition: 0.3s ease-in-out;
@@ -25,7 +25,7 @@
            background-color: black;
            font-style: italic;
            color: red;
-           margin-left: 200px;
+           margin-left: 300px;
          }
            
         
@@ -82,7 +82,7 @@
         /* Styles for the iframe */
         iframe {
             width: 1080px;  /* Width of the video */
-            height: 720px; 
+            height: 250px;
             border: none;   /* Remove border */
             border-radius: 10px; /* Round corners */
             background-color: #000; /* Background color */
