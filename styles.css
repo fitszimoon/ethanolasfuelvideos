@@ -27,7 +27,8 @@
            color: red;
            margin-left: 300px;
          }
-          
+           
+        
         .h2 { 
             font-size: 28px;
             font-wight: bold;
@@ -45,8 +46,8 @@
             margin-right: 400px;
             }
               
-        p1 {
-           font-size: 24px;
+        .p1 {
+           font-size: 28px;
            font-weight: bold;
            
         }
@@ -54,12 +55,14 @@
            font-size: 28px;
            margin-top: 70px;
            font-weight: bold;
-        }
+           
+           }
            
            p3 {
            font-size: 28px;
            margin-top: 70px;
            font-weight: bold;
+           
            }
      
         /* Container for the videos */
@@ -71,15 +74,19 @@
             transition: 0.3s ease-in-out;
         }
         
-   .video-container.shifted {
-      margin-left: 100px;
-      margin-right: -100px;
-    
+        .video-container.shifted {
+    margin-left: 100px;
+    margin-right: -100px;
     }
+    
+    .video-container.shifted .p1 {
+      animation: flicker 1.5s infinite;
+    }
+         
         /* Styles for the iframe */
         iframe {
             width: 1080px;  /* Width of the video */
-            height: 280px;
+            height: 290px;
             border: none;   /* Remove border */
             border-radius: 10px; /* Round corners */
             background-color: #000; /* Background color */
@@ -148,11 +155,20 @@
 
 .toggle-btn:hover {
     transform: scale(1.1) rotate(-3deg);
-        
-        /* Responsive styles */
+    
+    @keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+    }
+    20%, 24%, 55% {
+        opacity: 0;
+    }
+}
+    
         @media (max-width: 600px) {
             iframe {
                 width: 100%; /* Full width on small screens */
                 height: auto; /* Automatic height */
             }
-        }
+      }
+      
