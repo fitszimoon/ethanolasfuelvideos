@@ -96,9 +96,8 @@
     .video-container.shifted .p1 {
       font-family: 'P5R Menu Font', sans-serif;
       font-size: 60px;
-      margin-bottom: -55px;
+      margin-bottom: -70px;
       color: white;
-      font-style: italic;
       text-transform: uppercase;
       animation: flicker 2.5s infinite;
       position: relative;
