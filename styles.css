@@ -107,6 +107,7 @@
     .video-container.shifted .p2 {
       font-family: 'P5R Menu Font', sans-serif;
       font-size: 60px;
+      margin-top: 30px;
       margin-bottom: -45px;
       color: white;
       text-transform: uppercase;
@@ -118,6 +119,7 @@
     .video-container.shifted .p3 {
       font-family: 'P5R Menu Font', sans-serif;
       font-size: 60px;
+      margin-top: 30px;
       margin-bottom: -45px;
       color: white;
       text-transform: uppercase;
