@@ -233,8 +233,10 @@
        font-size: 30px; /* Decrease header size */
        margin: 0 10px;
    }
+  
    .h2.shifted {
        margin-right: 200px;
+   }
 
     .p1, .p2, .p3 {
         font-size: 40px; /* Decrease paragraph size */
