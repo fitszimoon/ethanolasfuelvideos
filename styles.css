@@ -28,10 +28,11 @@
          
          .h1.shifted {
            background-color: black;
-           border: 5px solid red;
-           padding: 0px;
+           outline: red double 5px;
            font-style: italic;
+           padding: 0;
            color: red;
+           margin: auto;
            margin-left: 300px;
            animation: flicker 15.5s infinite;
            
@@ -42,17 +43,18 @@
             font-size: 28px;
             font-weight: bold;
             text-align: center;
-            padding-bottom: 0px;
+            padding: 0;
             margin-bottom: -150px;
             transition: 0.3s ease-in-out;
             }
             
        .h2.shifted {
-            background-color: black;
             font-style: italic;
             text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-color: red;
             color: red;
-            margin-right: 400px;
+            margin-right: 470px;
             animation: flicker 10.5s infinite;
             }
               
