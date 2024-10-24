@@ -155,7 +155,8 @@
 
 .toggle-btn:hover {
     transform: scale(1.1) rotate(-3deg);
-    
+}
+
     @keyframes flicker {
     0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
         opacity: 1;
