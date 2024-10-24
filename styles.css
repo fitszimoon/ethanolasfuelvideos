@@ -27,8 +27,7 @@
            color: red;
            margin-left: 300px;
          }
-           
-        
+          
         .h2 { 
             font-size: 28px;
             font-wight: bold;
@@ -43,7 +42,7 @@
             font-style: italic;
             text-transform: uppercase;
             color: #fff;
-            margin-right: 300px;
+            margin-right: 400px;
             }
               
         p1 {
@@ -55,14 +54,12 @@
            font-size: 28px;
            margin-top: 70px;
            font-weight: bold;
-           
-           }
+        }
            
            p3 {
            font-size: 28px;
            margin-top: 70px;
            font-weight: bold;
-           
            }
      
         /* Container for the videos */
@@ -74,9 +71,9 @@
             transition: 0.3s ease-in-out;
         }
         
-        .video-container.shifted {
-    margin-left: 100px;
-    margin-right: -100px;
+   .video-container.shifted {
+      margin-left: 100px;
+      margin-right: -100px;
     
     }
         /* Styles for the iframe */
