@@ -211,7 +211,7 @@
     transform: scale(1.1) rotate(-3deg);
 }
 
-    @keyframes flicker {
+ @keyframes flicker {
     0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
         opacity: 1;
     }
@@ -219,14 +219,46 @@
         opacity: 0;
     }
 }
-    
-        @media (max-width: 600px) {
-            iframe {
-                width: 100%; /* Full width on small screens */
-                height: auto; /* Automatic height */
-            }
-      }
-      
+
+ @media (max-width: 600px) {
+    body {
+        padding: 10px; /* Reduce padding on small screens */
+    }
+
+    .h1, .h2 {
+        font-size: 30px; /* Decrease header size */
+        margin: 0 10px; /* Adjust margins for small screens */
+    }
+
+    .p1, .p2, .p3 {
+        font-size: 40px; /* Decrease paragraph size */
+        margin-top: 50px; /* Adjust spacing between paragraphs */
+    }
+
+    .video-container {
+        padding: 20px; /* Reduce padding around video container */
+    }
+
+    iframe {
+        width: 100%;  /* Full width on small screens */
+        height: 250px; /* Smaller height to match the screen size */
+    }
+
+    .sidebar {
+        width: 100px; /* Make sidebar narrower */
+    }
+
+    .sidebar a {
+        font-size: 1rem; /* Adjust font size in sidebar */
+        padding: 10px;   /* Reduce padding for links */
+    }
+
+    .toggle-btn {
+        font-size: 1rem; /* Adjust button size */
+        padding: 8px 12px;
+    }
+}
+
 @font-face {
     font-family: 'Markin LT';
     src: url('fonts/MarkinLTUltraBold.woff2') format('woff2'), /* Super Modern Browsers */
