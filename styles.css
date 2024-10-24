@@ -79,7 +79,7 @@
         /* Styles for the iframe */
         iframe {
             width: 1080px;  /* Width of the video */
-            height: 250px;
+            height: 280px;
             border: none;   /* Remove border */
             border-radius: 10px; /* Round corners */
             background-color: #000; /* Background color */
