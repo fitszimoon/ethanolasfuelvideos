@@ -225,10 +225,16 @@
         padding: 10px; /* Reduce padding on small screens */
     }
 
-    .h1, .h2 {
+    .h1 {
         font-size: 30px; /* Decrease header size */
         margin: 0 10px; /* Adjust margins for small screens */
     }
+   .h2 {
+       font-size: 30px; /* Decrease header size */
+       margin: 0 10px;
+   }
+   .h2.shifted {
+       margin-right: 200px;
 
     .p1, .p2, .p3 {
         font-size: 40px; /* Decrease paragraph size */
