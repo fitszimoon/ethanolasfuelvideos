@@ -40,6 +40,8 @@
            
         
         .h2 { 
+            font-family: 'p5hatty', sans-serif;
+            text-transform: uppercase;
             font-size: 50px;
             font-weight: bold;
             margin-top: 150px;
@@ -51,10 +53,9 @@
             }
             
        .h2.shifted {
-            font-family: 'p5hatty', sans-serif;
+            font-family: 'P5R Menu Font', sans-serif;
             margin-top: 150px;
             margin-bottom: -190px;
-            text-transform: uppercase;
             text-decoration: underline;
             text-decoration-color: red;
             color: red;
@@ -63,12 +64,16 @@
             }
               
         .p1 {
+           font-family: 'Markin LT', sans-serif;
+           text-transform: uppercase;
            font-size: 60px;
            margin-bottom: -70px;
            font-weight: bold;
            
         }
         .p2 {
+           font-family: 'Markin LT', sans-serif;
+           text-transform: uppercase;
            font-size: 60px;
            margin-top: 150px;
            font-weight: bold;
@@ -76,6 +81,8 @@
            }
            
         .p3 {
+           font-family: 'Markin LT', sans-serif;
+           text-transform: uppercase;
            font-size: 60px;
            margin-top: 150px;
            font-weight: bold;
