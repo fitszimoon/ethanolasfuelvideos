@@ -40,7 +40,6 @@
            
         
         .h2 { 
-            font-family: 'Markin LT', sans-serif;
             font-size: 28px;
             font-weight: bold;
             text-align: center;
@@ -94,11 +93,13 @@
     }
     
     .video-container.shifted .p1 {
-      font-size: 50px;
-      font-family: 'P5R Menu Font', sans-serif;
-      color: white;
+      margin-bottom: -44px;
+      color: red;
+      font-style: italic;
       text-transform: uppercase;
       animation: flicker 2.5s infinite;
+      position: relative;
+      z-index: 10;
     }
 
     .video-container.shifted .p2 {
@@ -124,6 +125,7 @@
             background-color: #000; /* Background color */
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
             transition: transform 0.3s; /* Smooth scaling effect */
+            z-index: 1;
         }
       
         iframe:hover {
@@ -209,18 +211,4 @@
             }
       }
       
-@font-face {
-    font-family: 'Markin LT';
-    src: url('fonts/MarkinLTUltraBold.woff2') format('woff2'), /* Super Modern Browsers */
-         url('fonts/MarkinLTUltraBold.woff') format('woff'), /* Modern Browsers */
-         url('fonts/MarkinLTUltraBold.ttf') format('truetype'); /* Safari, Android, iOS */
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'P5R Menu Font';
-    src: url('fonts/Persona5MenuFontPrototype-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+ 
