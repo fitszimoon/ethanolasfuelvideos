@@ -27,6 +27,7 @@
            }
          
          .h1.shifted {
+           font-family: 'P5R Menu Font', sans-serif;
            background-color: black;
            outline: red double 5px;
            font-style: italic;
@@ -56,10 +57,9 @@
             font-family: 'P5R Menu Font', sans-serif;
             margin-top: 150px;
             margin-bottom: -190px;
-            text-decoration: underline;
             text-decoration-color: red;
-            color: red;
-            margin-right: 470px;
+            color: white;
+            margin-right: 300px;
             animation: flicker 10.5s infinite;
             }
               
