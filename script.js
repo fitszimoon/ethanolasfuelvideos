@@ -3,5 +3,6 @@ function toggleSidebar() {
     var mainContent = document.getElementById('video'); 
     sidebar.classList.toggle('open');
     mainContent.classList.toggle('shifted'); 
+    document.getElementById('h1').classList.toggle('shifted');
     document.getElementById('h2').classList.toggle('shifted');
 }
