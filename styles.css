@@ -29,6 +29,7 @@
          .h1.shifted {
            background-color: black;
            border: 5px solid red;
+           padding: 0px;
            font-style: italic;
            color: red;
            margin-left: 300px;
