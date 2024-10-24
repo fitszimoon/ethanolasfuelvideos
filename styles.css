@@ -32,7 +32,7 @@
            outline: red double 5px;
            font-style: italic;
            padding: 0;
-           color: red;
+           color: white;
            margin: auto;
            margin-left: 300px;
            animation: flicker 15.5s infinite;
