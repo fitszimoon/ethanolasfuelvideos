@@ -9,6 +9,11 @@
             padding: 15px; 
         }
         
+      body.sidebar-open {
+    background-color: black; /* Darkened background when sidebar is open */
+    transition: background-color 0.3s ease-in-out; /* Optional smooth transition */
+}
+        
         .h1 {
             background-color: red;
             font-size: 36px;
@@ -23,9 +28,12 @@
          
          .h1.shifted {
            background-color: black;
+           border: 5px solid red;
            font-style: italic;
            color: red;
            margin-left: 300px;
+           animation: flicker 15.5s infinite;
+           
          }
            
         
@@ -39,15 +47,17 @@
             }
             
        .h2.shifted {
-            background-color: red;
+            background-color: black;
             font-style: italic;
             text-transform: uppercase;
-            color: #fff;
+            color: red;
             margin-right: 400px;
+            animation: flicker 10.5s infinite;
             }
               
         .p1 {
            font-size: 28px;
+           margin-bottom: -30px;
            font-weight: bold;
            
         }
@@ -74,21 +84,30 @@
             transition: 0.3s ease-in-out;
         }
         
-        .video-container.shifted {
-    margin-left: 100px;
-    margin-right: -100px;
+    .video-container.shifted {
+      margin-left: 100px;
+      margin-right: -100px;
     }
     
     .video-container.shifted .p1 {
-      animation: flicker 1.5s infinite;
+      color: red;
+      font-style: italic;
+      text-transform: uppercase;
+      animation: flicker 2.5s infinite;
     }
 
     .video-container.shifted .p2 {
-      animation: flicker 1.5s infinite;
+      color: red;
+      font-style: italic;
+      text-transform: uppercase;
+      animation: flicker 2.5s infinite;
     }
 
     .video-container.shifted .p3 {
-      animation: flicker 1.5s infinite;
+      color: red;
+      font-style: italic;
+      text-transform: uppercase;
+      animation: flicker 2.5s infinite;
     }
          
         /* Styles for the iframe */
@@ -101,10 +120,13 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
             transition: transform 0.3s; /* Smooth scaling effect */
         }
-        
-        /* Scale up video on hover */
+      
         iframe:hover {
             transform: scale(1.05); /* Scale effect on hover */
+        }
+        
+        iframe.sidebar-open {
+            border: 5px solid red;
         }
         
    .sidebar {
