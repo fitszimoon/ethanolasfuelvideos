@@ -163,11 +163,11 @@ iframe.sidebar-open {
 }
 
 .sidebar a {
-  font-family: "P5R Menu Font", sans-serif;
-  background-color: white;
-  border: 3px solid black;
-  border: 3px solid red;
-  color: black;
+  font-family: "p5hatty", sans-serif;
+  background-color: rgb(0,0,0,0.7);
+  box-shadow: -5px 5px black;
+  border: 3px solid white;
+  color: white;
   text-decoration: none;
   display: block;
   margin: 0px;
@@ -186,7 +186,8 @@ iframe.sidebar-open {
 }
 
 .sidebar.open {
-  left: 0; /* Slide in the sidebar */
+  left: 0;
+  border-right: 1px solid white;
 }
 
 /* Toggle Button Styles */
@@ -242,7 +243,7 @@ iframe.sidebar-open {
     font-size: 20px; /* Adjust font size for shifted h1 */
     margin-top: 50px;
     margin-left: 80px; /* Less aggressive shift */
-    margin-right: 0px;
+    margin-right: px;
     padding: 0; /* Small padding for better visibility */
     background-color: black;
     outline: red double 3px; /* Thinner outline */
@@ -323,6 +324,7 @@ iframe.sidebar-open {
   }
 
   .sidebar a {
+    font-family: "P5R Menu Font", sans-serif;
     color: white;
     text-shadow: 0px 0px 10px darkred;
     margin-top: 45px;
