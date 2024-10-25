@@ -168,14 +168,13 @@ iframe.sidebar-open {
   border: 3px solid black;
   border: 3px solid red;
   color: black;
-  text-shadow: 0px 0px 5px tomato;
   text-decoration: none;
   display: block;
   margin: 0px;
   margin-top: 12px;
   margin-right: 20px;
   margin-left: 20px;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   padding: 15px;
   transition: transform 0.3s ease-in-out;
@@ -243,7 +242,7 @@ iframe.sidebar-open {
     font-size: 20px; /* Adjust font size for shifted h1 */
     margin-top: 50px;
     margin-left: 80px; /* Less aggressive shift */
-    margin-right: px;
+    margin-right: 0px;
     padding: 0; /* Small padding for better visibility */
     background-color: black;
     outline: red double 3px; /* Thinner outline */
@@ -324,10 +323,13 @@ iframe.sidebar-open {
   }
 
   .sidebar a {
+    color: white;
+    text-shadow: 0px 0px 10px darkred;
     margin-top: 45px;
     margin-bottom: -30px;
     margin-left: 50px;
-    padding: 15px 25px;
+    padding: 8px 25px;
+    text-align: ; 
   }
 
   .sidebar.open {
