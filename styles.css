@@ -222,48 +222,89 @@
 
  @media (max-width: 600px) {
     body {
-        padding: 10px; /* Reduce padding on small screens */
+        padding: 8px; /* Reduce padding */
+        font-size: 14px; /* Global font-size adjustment */
     }
 
     .h1 {
-        font-size: 30px; /* Decrease header size */
-        margin: 0 10px; /* Adjust margins for small screens */
+        font-size: 25px; /* Decrease header size */
+        margin: 0 5px; /* Adjust margins */
     }
-   .h2 {
-       font-size: 30px; /* Decrease header size */
-       margin: 0 10px;
-   }
-  
-   .h2.shifted {
-       margin-right: 200px;
-   }
+
+    .h1.shifted {
+        font-size: 22px; /* Adjust font size for shifted h1 */
+        margin-left: 50px; /* Less aggressive shift */
+        margin-right: 0;
+        padding: 5px; /* Small padding for better visibility */
+        background-color: black;
+        outline: red double 3px; /* Thinner outline */
+        animation: flicker 12s infinite; /* Shorten flicker duration */
+    }
+
+    .h2 {
+        font-size: 20px; /* Decrease header size */
+        margin: 0 5px;
+    }
+
+    .h2.shifted {
+        font-size: 18px; /* Smaller font for shifted h2 */
+        margin-right: 50px; /* Reduce right margin */
+        margin-left: 20px; /* Add left margin */
+        text-decoration-color: red;
+        animation: flicker 8s infinite; /* Slightly faster animation */
+    }
 
     .p1, .p2, .p3 {
-        font-size: 40px; /* Decrease paragraph size */
-        margin-top: 50px; /* Adjust spacing between paragraphs */
+        font-size: 30px; /* Decrease paragraph size */
+        margin-top: 40px; /* Adjust spacing */
     }
 
     .video-container {
-        padding: 20px; /* Reduce padding around video container */
+        padding: 10px; /* Reduce padding */
+        flex-direction: column; /* Stack videos vertically */
+    }
+
+    .video-container.shifted {
+        margin-left: 0; /* Center container */
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .video-container.shifted .p1,
+    .video-container.shifted .p2,
+    .video-container.shifted .p3 {
+        font-size: 20px; /* Smaller font size */
+        margin-left: 0; /* Center text */
+        margin-right: 0;
+        animation: flicker 5s infinite; /* Shorter flicker animation */
     }
 
     iframe {
-        width: 100%;  /* Full width on small screens */
-        height: 250px; /* Smaller height to match the screen size */
+        width: 90%;  /* Narrow iframe for mobile */
+        height: 200px; /* Smaller iframe */
+    }
+
+    iframe.sidebar-open {
+        border: 3px solid red; /* Thinner border for mobile */
+        outline: white solid 3px; /* Smaller outline */
     }
 
     .sidebar {
-        width: 100px; /* Make sidebar narrower */
+        width: 80px; /* Narrow the sidebar */
     }
 
     .sidebar a {
-        font-size: 1rem; /* Adjust font size in sidebar */
-        padding: 10px;   /* Reduce padding for links */
+        font-size: 0.8rem; /* Reduce link font size */
+        padding: 8px; /* Smaller padding for links */
     }
 
     .toggle-btn {
-        font-size: 1rem; /* Adjust button size */
-        padding: 8px 12px;
+        font-size: 0.8rem; /* Smaller button */
+        padding: 5px 8px;
+    }
+
+    .toggle-btn:hover {
+        transform: scale(1.05) rotate(-2deg); /* Less intense hover effect */
     }
 }
 
